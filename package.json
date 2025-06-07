@@ -1,0 +1,32 @@
+{
+  "name": "ejercicios-ht2-pi-2025",
+  "version": "1.0.0",
+  "description": "Serie de 10 ejercicios con JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node",
+    "ejercicio01": "node ejercicios/ejercicio01.js",
+    "ejercicio02": "node ejercicios/ejercicio02.js",
+    "ejercicio03": "node ejercicios/ejercicio03.js",
+    "ejercicio04": "node ejercicios/ejercicio04.js",
+    "ejercicio05": "node ejercicios/ejercicio05.js",
+    "ejercicio06": "node ejercicios/ejercicio06.js",
+    "ejercicio07": "node ejercicios/ejercicio07.js",
+    "ejercicio08": "node ejercicios/ejercicio08.js",
+    "ejercicio09": "node ejercicios/ejercicio09.js",
+    "ejercicio10": "node ejercicios/ejercicio10.js"
+  },
+  "keywords": [
+    "javascript",
+    "ejercicios",
+    "ht2",
+    "pi",
+    "2025"
+  ],
+  "author": "Mar",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

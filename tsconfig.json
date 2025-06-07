@@ -1,0 +1,18 @@
+// tsconfig.json (en la raíz de tu proyecto)
+{
+  "compilerOptions": {
+    "target": "es2015", // Esto le dice a TypeScript que compile a JavaScript ES2015 (ES6)
+    "module": "commonjs", // Esto es el sistema de módulos estándar para Node.js
+    "esModuleInterop": true, // Para que las importaciones (como 'readline-sync') funcionen bien
+    "forceConsistentCasingInFileNames": true, // Ayuda con la consistencia en nombres de archivos
+    "skipLibCheck": true, // Ignora los errores de tipos en las librerías de node_modules para una compilación más rápida
+    "strict": true // Habilita todas las opciones de verificación de tipo estricta (¡buena práctica!)
+    // REMOVIDO: "outDir": "./dist"
+  },
+  "include": [
+    "ejercicios/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
